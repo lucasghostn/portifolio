@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lucas Paulino Martins | Portfólio</title>
+  
+  <!-- Fonte futurista -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- CSS personalizado -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Estilo do fundo de partículas -->
+  <style>
+    #particles-js {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: #111;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Fundo de partículas -->
+  <div id="particles-js"></div>
+
+  <!-- Conteúdo principal -->
+  <div class="container">
+    <h1>Lucas Paulino Martins</h1>
+    <p><strong>Técnico em Logística</strong></p>
+    <p>
+      🔗 
+      <a href="https://www.linkedin.com/in/lucas-paulino-martins-b271492a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> | 
+      <a href="https://github.com/lucasghostn">GitHub</a>
+    </p>
+
+    <!-- Sobre -->
+    <section>
+      <h2>🧍 Sobre Mim</h2>
+      <p>Sou estudante de Logística e Tecnologia da Informação, com crescente interesse na área de Análise e Desenvolvimento de Sistemas...</p>
+      <div class="sobre-foto">
+        <img src="foto1.png" alt="foto de perfil" class="foto-perfil" />
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section>
+      <h2>💡 Habilidades Técnicas</h2>
+      <div class="skills">
+        <span class="skill">HTML5</span>
+        <span class="skill">CSS3</span>
+        <span class="skill">JavaScript (ES6+)</span>
+        <span class="skill">SAP HANA</span>
+        <span class="skill">Pacote Office</span>
+      </div>
+    </section>
+
+    <!-- Projetos -->
+    <section>
+      <h2>🧠 Projetos</h2>
+      <div class="project">
+        <p class="project-title">Portfólio Pessoal</p>
+        <p>Site responsivo criado com HTML, CSS e JavaScript para apresentar meu perfil profissional.</p>
+      </div>
+      <div class="project">
+        <p class="project-title">Lista de Tarefas</p>
+        <p>Aplicação teórica voltada para o desenvolvimento de soluções em pequenos e grandes negócios.</p>
+      </div>
+    </section>
+
+    <!-- Formação -->
+    <section>
+      <h2>🎓 Formação Acadêmica</h2>
+      <p><strong>Superior de Tecnologia em Logística</strong><br>
+      Anhanguera Educacional<br>
+      Janeiro de 2024 – (em andamento)</p>
+      <p><strong>Análise e Desenvolvimento de Sistemas</strong><br>
+      Anhanguera Educacional<br>
+      Agosto de 2025 – (em andamento)</p>
+    </section>
+
+    <!-- Certificados -->
+    <section>
+      <h2>📜 Certificados</h2>
+      <ul>
+        <li>DIREITO ELETRÔNICO – Anhanguera | 60h – <a href="DIREITO ELETRÔNICO.pdf">Ver certificado</a></li>
+        <li>Aperfeiçoamento em operação – Senai Lab | 20h – <a href="Aperfeiçoamento em operaçao.PDF">Ver certificado</a></li>
+        <li>Chatbots automação – Senai Lab | 39h – <a href="Chatbots automação de conversas.PDF">Ver certificado</a></li>
+        <li>TI aplicada ao Direito – Anhanguera | 40h – <a href="TECNOLOGIAS DE INFORMAÇÃO APLICADAS AO DIREITO.pdf">Ver certificado</a></li>
+      </ul>
+    </section>
+
+    <!-- Contato -->
+    <section>
+      <h2>📞 Contato</h2>
+      <div class="contact-info">
+        <p>Email: <a href="mailto:lucaspaulinomartins007@gmail.com">lucaspaulinomartins007@gmail.com</a></p>
+        <p>Celular: (11) 94328-1410</p>
+        <a class="button" href="Lucascurriculo.pdf">📄 Baixar Currículo</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 Lucas Paulino Martins. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Importar particles.js -->
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+  <!-- Configurar partículas -->
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 250, "density": { "enable": true, "value_area": 800 }},
+        "color": { "value": "#ff0000" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 3 },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ff0000",
+          "opacity": 0.9,
+          "width": 1
+        },
+        "move": { "enable": true, "speed": 3 }
+      },
+      "interactivity": {
+        "events": {
+          "onhover": { "enable": true, "mode": "grab" },
+          "onclick": { "enable": true, "mode": "push" }
+        },
+        "modes": {
+          "grab": { "distance": 200, "line_linked": { "opacity": 3 }},
+          "push": { "particles_nb": 8 }
+        }
+      },
+      "retina_detect": true
+    });
+  </script>
+</body>
+</html>
